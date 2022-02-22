@@ -12,8 +12,8 @@ export default function Home() {
   function search(event) {
     event.preventDefault();
     const term = searchInputRef.current.value;
-    if (!term) return;
-    router.push(`/search?term=${term}`);
+    if (!term.trim()) return;
+    router.push(`/search?term=${term.trim()}`);
   }
   return (
     <div>
@@ -32,7 +32,7 @@ export default function Home() {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
           width="300"
           height="100"
-          objectFit="cover"
+          objectFit="contain"
         />
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-[90%] mx-auto rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 mr-3 text-gray-500 " />
