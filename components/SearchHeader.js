@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { useRouter } from "next/router";
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
 import Avator from "./Avator";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 
 export default function SearchHeader() {
   const router = useRouter();
@@ -41,8 +42,9 @@ export default function SearchHeader() {
             Search
           </button>
         </form>
-        <Avator className="ml-auto"/>
+        <Avator className="ml-auto" />
       </div>
+      <SearchHeaderOptions />
     </header>
   );
 }
