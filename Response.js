@@ -1,547 +1,505 @@
 export default {
-  kind: "customsearch#search",
-  url: {
-    type: "application/json",
-    template:
-      "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
+  "kind": "customsearch#search",
+  "url": {
+      "type": "application/json",
+      "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
   },
-  queries: {
-    request: [
+  "queries": {
+      "request": [
+          {
+              "title": "Google Custom Search - sahand ghavidel",
+              "totalResults": "6000",
+              "searchTerms": "sahand ghavidel",
+              "count": 10,
+              "startIndex": 1,
+              "inputEncoding": "utf8",
+              "outputEncoding": "utf8",
+              "safe": "off",
+              "cx": "829551c54702def8a"
+          }
+      ],
+      "nextPage": [
+          {
+              "title": "Google Custom Search - sahand ghavidel",
+              "totalResults": "6000",
+              "searchTerms": "sahand ghavidel",
+              "count": 10,
+              "startIndex": 11,
+              "inputEncoding": "utf8",
+              "outputEncoding": "utf8",
+              "safe": "off",
+              "cx": "829551c54702def8a"
+          }
+      ]
+  },
+  "context": {
+      "title": "google-v1"
+  },
+  "searchInformation": {
+      "searchTime": 0.558462,
+      "formattedSearchTime": "0.56",
+      "totalResults": "6000",
+      "formattedTotalResults": "6,000"
+  },
+  "items": [
       {
-        title: "Google Custom Search - hello",
-        totalResults: "22300000",
-        searchTerms: "hello",
-        count: 10,
-        startIndex: 1,
-        inputEncoding: "utf8",
-        outputEncoding: "utf8",
-        safe: "off",
-        cx: "829551c54702def8a",
+          "kind": "customsearch#result",
+          "title": "‪Sahand Ghavidel‬ - ‪Google Scholar‬",
+          "htmlTitle": "‪<b>Sahand Ghavidel</b>‬ - ‪Google Scholar‬",
+          "link": "https://scholar.google.com/citations?user=4eTBF1IAAAAJ&hl=en",
+          "displayLink": "scholar.google.com",
+          "snippet": "M Ghasemi, S Ghavidel, M Gitizadeh, E Akbari. International Journal of Electrical Power & Energy Systems 65, 375-384, 2015.",
+          "htmlSnippet": "M Ghasemi, S <b>Ghavidel</b>, M Gitizadeh, E Akbari. International Journal of Electrical Power &amp; Energy Systems 65, 375-384, 2015.",
+          "cacheId": "DcFWaDOBFyQJ",
+          "formattedUrl": "https://scholar.google.com/citations?user=4eTBF1IAAAAJ&hl=en",
+          "htmlFormattedUrl": "https://scholar.google.com/citations?user=4eTBF1IAAAAJ&amp;hl=en",
+          "pagemap": {
+              "hcard": [
+                  {
+                      "fn": "Sahand Ghavidel",
+                      "title": "University of Technology Sydney"
+                  }
+              ],
+              "person": [
+                  {
+                      "role": "University of Technology Sydney",
+                      "org": "student.uts.edu.au"
+                  },
+                  {
+                      "jobtitle": "University of Technology Sydney",
+                      "worksfor": "student.uts.edu.au",
+                      "name": "Sahand Ghavidel"
+                  }
+              ],
+              "metatags": [
+                  {
+                      "referrer": "origin-when-cross-origin",
+                      "og:image": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=4eTBF1IAAAAJ&citpid=20",
+                      "og:type": "website",
+                      "twitter:card": "summary",
+                      "viewport": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=2",
+                      "og:title": "Sahand Ghavidel",
+                      "og:description": "‪University of Technology Sydney‬ - ‪‪Cited by 2,070‬‬ - ‪Power System Stability‬ - ‪FACTS devices‬ - ‪Application of Optimization in Power System Studies‬ - ‪Power System Operation and Planning‬",
+                      "format-detection": "telephone=no"
+                  }
+              ],
+              "itemlist": [
+                  {
+                      "itemlistelement": "An improved teaching–learning-based optimization algorithm using Lévy mutation strategy for non-smooth optimal power flowM Ghasemi, S Ghavidel, M Gitizadeh, E AkbariInternational Journal..."
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=4eTBF1IAAAAJ&citpid=20"
+                  }
+              ]
+          }
       },
-    ],
-    nextPage: [
       {
-        title: "Google Custom Search - hello",
-        totalResults: "22300000",
-        searchTerms: "hello",
-        count: 10,
-        startIndex: 11,
-        inputEncoding: "utf8",
-        outputEncoding: "utf8",
-        safe: "off",
-        cx: "829551c54702def8a",
+          "kind": "customsearch#result",
+          "title": "Dr. Sahand Ghavidel | Web Developer | Udemy",
+          "htmlTitle": "Dr. <b>Sahand Ghavidel</b> | Web Developer | Udemy",
+          "link": "https://www.udemy.com/user/sahand-ghavidel/",
+          "displayLink": "www.udemy.com",
+          "snippet": "Sahand Ghavidel holds degrees in Mathematics, Electrical, and Computer Science, and earned a doctoral degree from Faculty of Engineering and IT, ...",
+          "htmlSnippet": "<b>Sahand Ghavidel</b> holds degrees in Mathematics, Electrical, and Computer Science, and earned a doctoral degree from Faculty of Engineering and IT,&nbsp;...",
+          "cacheId": "xaw3oY_NCM0J",
+          "formattedUrl": "https://www.udemy.com/user/sahand-ghavidel/",
+          "htmlFormattedUrl": "https://www.udemy.com/user/<b>sahand</b>-<b>ghavidel</b>/",
+          "pagemap": {
+              "metatags": [
+                  {
+                      "apple-itunes-app": "app-id=562413829, affiliate-data=ct=Safari_SmartBanner&amp;pt=1240482",
+                      "og:image": "https://img-c.udemycdn.com/user/75x75/65148228_08f1.jpg",
+                      "msapplication-config": "/staticx/udemy/images/v7/browserconfig.xml",
+                      "twitter:card": "summary_large_image",
+                      "theme-color": "#ffffff",
+                      "og:site_name": "Udemy",
+                      "twitter:url": "https://www.udemy.com/user/sahand-ghavidel/",
+                      "medium": "mult",
+                      "title": "Dr. Sahand Ghavidel | Web Developer| Udemy",
+                      "type": "profile",
+                      "msapplication-tileimage": "/staticx/udemy/images/v7/mstile-144x144.png",
+                      "og:description": "Dr. Sahand Ghavidel is a Udemy instructor with educational courses available for enrollment. Check out the latest courses taught by Dr. Sahand Ghavidel",
+                      "twitter:image": "https://img-c.udemycdn.com/user/75x75/65148228_08f1.jpg",
+                      "twitter:site": "@udemy",
+                      "application-name": "Udemy",
+                      "msapplication-tilecolor": "#a435f0",
+                      "image": "https://img-b.udemycdn.com/user/200_H/65148228_08f1.jpg?secure=33pg_eG9iwqpi_XOl76etQ%3D%3D%2C1645514576",
+                      "og:type": "video_lecture",
+                      "twitter:title": "Dr. Sahand Ghavidel | Web Developer| Udemy",
+                      "twitter:domain": "www.udemy.com",
+                      "og:title": "Dr. Sahand Ghavidel | Web Developer| Udemy",
+                      "fb:app_id": "313137469260",
+                      "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+                      "twitter:description": "Dr. Sahand Ghavidel is a Udemy instructor with educational courses available for enrollment. Check out the latest courses taught by Dr. Sahand Ghavidel",
+                      "og:locale": "en_US",
+                      "og:url": "https://www.udemy.com/user/sahand-ghavidel/",
+                      "google-play-app": "app-id=com.udemy.android"
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://img-c.udemycdn.com/user/75x75/65148228_08f1.jpg"
+                  }
+              ]
+          }
       },
-    ],
-  },
-  context: {
-    title: "google-v1",
-  },
-  searchInformation: {
-    searchTime: 0.501399,
-    formattedSearchTime: "0.50",
-    totalResults: "22300000",
-    formattedTotalResults: "22,300,000",
-  },
-  items: [
-    {
-      kind: "customsearch#result",
-      title:
-        "Kristen Bell, Dax Shepherd launch natural baby line Hello Bello at ...",
-      htmlTitle:
-        "Kristen Bell, Dax Shepherd launch natural baby line <b>Hello</b> Bello at ...",
-      link: "https://www.google.com/appserve/mkt/p/AHANi0Ymd0RfzBGyO52RXE-KqP501v_BoLYCmbEVu3ed4v20GWE73BA0QLKqb5qcBz9DoR95Q01h2oVbSvso5oD-8cb13H7LBY4I0rt03WuEzRSGdt8aq7XNSRjSPMLNWnMvV_1GXgu8JzMgWjK_RBzqLw_Pt7yg2L3TuZb561k0gINDvxroqztwNXjPpSX-PebKodACIQICR-n5-17gWvGpDOBuR3fqxN0",
-      displayLink: "www.google.com",
-      snippet:
-        "Kristen Bell, Dax Shepherd debut Hello Bello at Walmart. Anne Stych, Contributing Writer Feb 26, 2019, 8:41am EST. Kristen Bell, Dax Shepherd launch natural ...",
-      htmlSnippet:
-        "Kristen Bell, Dax Shepherd debut <b>Hello</b> Bello at Walmart. Anne Stych, Contributing Writer Feb 26, 2019, 8:41am EST. Kristen Bell, Dax Shepherd launch natural&nbsp;...",
-      cacheId: "BgPzLVpgcG0J",
-      formattedUrl:
-        "https://www.google.com/.../AHANi0Ymd0RfzBGyO52RXE-KqP501v_ BoLYCmbEVu3ed4v20GWE73BA0QLKqb5qcBz9DoR95Q01h2oVbSvso...",
-      htmlFormattedUrl:
-        "https://www.google.com/.../AHANi0Ymd0RfzBGyO52RXE-KqP501v_ BoLYCmbEVu3ed4v20GWE73BA0QLKqb5qcBz9DoR95Q01h2oVbSvso...",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYaipFg6X7EJvAnlLG5damQhGtxnymzGZYNPQ361LKrZ1EErNgLdmbovU",
-            width: "299",
-            height: "169",
-          },
-        ],
-        metatags: [
-          {
-            date: "2019-02-26T08:41:00-05:00",
-            "og:image":
-              "https://media.bizj.us/view/img/11231550/hello-bello*1200xx700-395-0-0.jpg",
-            "og:image:width": "1200",
-            "twitter:card": "summary_large_image",
-            "og:site_name": "The Business Journals",
-            "og:description":
-              ".@IMKristenBell and @DasShepherd launch Hello Bell baby wear @Walmart.",
-            "og:image:secure_url":
-              "https://media.bizj.us/view/img/11231550/hello-bello*1200xx700-395-0-0.jpg",
-            "article:publisher": "https://www.facebook.com/bizjournals",
-            "publish-date": "Tue, 26 Feb 2019 08:41:00 EST",
-            "market:json":
-              '{"id":"2661","market_code":"bizjournals","market_name":" The Business Journals","market_abbrev":"The Business Journals","market_color":"sapphire","journal_name":"The Business Journals","twitter":"bizjournals","email":{"AE":null,"ME":null,"BN":null,"BW":4081},"market_state":"NC","market_city":"","mpp_enabled":true,"journal":[]}',
-            "cxenseparse:recs:acb-wordcount": "531",
-            "tid:legacy": "5151",
-            "special-category:json": '{"id":"0","spf":"0"}',
-            "cxenseparse:recs:acb-canonical":
-              "https://www.bizjournals.com/bizwomen/news/latest-news/2019/02/kristen-bell-dax-shepherd-debut-hello-bello-at.html",
-            "fb:pages": "725320624152995",
-            "cxenseparse:acb-primarychannel": "Retailing",
-            market: "bizjournals",
-            breakingnews: "yes",
-            "sailthru.image.full":
-              "https://media.bizj.us/view/img/11231550/hello-bello*280xx600-402-31-0.jpg",
-            "p:domain_verify": "ec0c534b614190f20737f5959d72ae58",
-            "msapplication-config": "none",
-            "cxenseparse:acb-wordcountgroup": "400 - 549",
-            "sailthru.tags":
-              "Retailing, Walmart, The Honest Company, Amazon, Dax Shepherd, Jessica Alba, Jennifer Pullen, Sean Kane, Kristen Bell, Jay McGraw, Hello Bello",
-            "og:image:type": "image/jpeg",
-            y_key: "ba03ff0c1b6c696c",
-            "twitter:image":
-              "https://media.bizj.us/view/img/11231550/hello-bello*1200xx700-395-0-0.jpg",
-            "cxenseparse:recs:acb-headline":
-              "Kristen Bell, Dax Shepherd debut Hello Bello at Walmart",
-            "pocket-site-verification": "dcfbf8a491ca04e5df334b6a2d30fd",
-            "twitter:site": "@bizwomen",
-            news_keywords:
-              "Retailing, Walmart, The Honest Company, Amazon, Dax Shepherd, Jessica Alba, Jennifer Pullen, Sean Kane, Kristen Bell, Jay McGraw, Hello Bello",
-            "sailthru.title":
-              "Kristen Bell, Dax Shepherd launch baby line Hello Bello at Walmart",
-            "fb:admins":
-              "9016348,654914897,628377787,1280002853,763321529,696276440,1155362274",
-            "twitter:account_id": "14921083",
-            "template:id": "5151",
-            "og:type": "article",
-            "channel:json":
-              '{"id":"12","channel_code":"retailing","channel_name":"Retailing"}',
-            "msvalidate.01": "4A4BA4ACEA94A755ED9C4AD1928D6A3E",
-            "og:title":
-              "Kristen Bell, Dax Shepherd launch natural baby line Hello Bello at Walmart - Bizwomen",
-            "metered_paywall:json":
-              '{"interval":2592000,"unregistered_limit":"3","light_registered_limit":"5","non_test_market":true,"bypass_domains":"{\\"0\\":\\"https:\\\\\\/\\\\\\/news.yahoo.com\\",\\"1\\":\\"https:\\\\\\/\\\\\\/finance.yahoo.com\\"}"}',
-            "og:image:height": "675",
-            env: "production",
-            "cxenseparse:acb-ispremium": "0",
-            "fb:app_id": "122785151074126",
-            "sailthru.description":
-              "The co-founder and former president of Jessica Alba's Honest Company is CEO of the new company.",
-            viewport: "width=device-width, initial-scale=1.0, user-scalable=no",
-            "cxenseparse:acb-storytype": "bizwomen",
-            "cxenseparse:articleid": "page_21433195",
-            "twitter:description":
-              "The co-founder and former president of Jessica Alba's Honest Company is CEO of the new company.",
-            category:
-              "Retailing, Walmart, The Honest Company, Amazon, Dax Shepherd, Jessica Alba, Jennifer Pullen, Sean Kane, Kristen Bell, Jay McGraw, Hello Bello",
-            "og:url":
-              "https://www.bizjournals.com/bizwomen/news/latest-news/2019/02/kristen-bell-dax-shepherd-debut-hello-bello-at.html?page=all",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://media.bizj.us/view/img/11231550/hello-bello*1200xx700-395-0-0.jpg",
-          },
-        ],
+      {
+          "kind": "customsearch#result",
+          "title": "Sahand Ghavidel | IEEE Xplore Author Details",
+          "htmlTitle": "<b>Sahand Ghavidel</b> | IEEE Xplore Author Details",
+          "link": "https://ieeexplore.ieee.org/author/37086076575",
+          "displayLink": "ieeexplore.ieee.org",
+          "snippet": "Sahand Ghavidel is currently pursuing the Ph.D. degree in electrical engineering with the University of Technology Sydney, Sydney, Australia.",
+          "htmlSnippet": "<b>Sahand Ghavidel</b> is currently pursuing the Ph.D. degree in electrical engineering with the University of Technology Sydney, Sydney, Australia.",
+          "formattedUrl": "https://ieeexplore.ieee.org/author/37086076575",
+          "htmlFormattedUrl": "https://ieeexplore.ieee.org/author/37086076575",
+          "pagemap": {
+              "metatags": [
+                  {
+                      "ctoken": "eyJhbGciOiJIUzUxMiIsInppcCI6IkRFRiJ9.eNqqVkosKFCyUoooyMkvSlXSUcosLgZyK2Dc1AqgrKGZiYmJgYWJsTlQPrEEJmBqbmxeCwAAAP__.CbjfjwVgFcXDxOoWVgSzOJWgEKvQhTrdJWtQQGUyl0xzn6eoThv0l4dp_IWT0gpMxPTfSaNgxL_LzAVH882TZA",
+                      "viewport": "width=device-width, initial-scale=1.0"
+                  }
+              ]
+          }
       },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Kitty Orchid Garden Cafe - Google Maps",
-      htmlTitle: "<b>Hello</b> Kitty Orchid Garden Cafe - Google Maps",
-      link: "https://www.google.com/maps/search/?api=1&query=Hello%20Kitty%20Orchid%20Garden%20Cafe&query_place_id=ChIJY6VurI082jER1uG50fHQzJY",
-      displayLink: "www.google.com",
-      snippet:
-        "Hello Kitty Orchid Garden Cafe. Your location. Trails. Dedicated lanes. Bicycle-friendly roads. Dirt/unpaved trails. Live traffic.",
-      htmlSnippet:
-        "<b>Hello</b> Kitty Orchid Garden Cafe. Your location. Trails. Dedicated lanes. Bicycle-friendly roads. Dirt/unpaved trails. Live traffic.",
-      cacheId: "krlr3t7nY-gJ",
-      formattedUrl:
-        "https://www.google.com/.../search/?... Hello%20Kitty%20Orchid%20Garden%20Cafe...",
-      htmlFormattedUrl:
-        "https://www.google.com/.../search/?... <b>Hello</b>%20Kitty%20Orchid%20Garden%20Cafe...",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQUDTMfgWSotdHvbOKW4AmY1steqsilnDJS4q33zGx-d0AXvvxPiFY9Mvs",
-            width: "204",
-            height: "247",
-          },
-        ],
-        metatags: [
-          {
-            referrer: "origin",
-            "twitter:card": "summary",
-            "theme-color": "#3367d6",
-            viewport: "initial-scale=1.0, user-scalable=no",
-            google: "notranslate",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://maps.gstatic.com/tactile/basepage/pegman_sherlock.png",
-          },
-        ],
+      {
+          "kind": "customsearch#result",
+          "title": "Sahand Ghavidel - Musician - Jaryanat e Movazi | LinkedIn",
+          "htmlTitle": "<b>Sahand Ghavidel</b> - Musician - Jaryanat e Movazi | LinkedIn",
+          "link": "https://ir.linkedin.com/in/sahand-ghavidel-236062178",
+          "displayLink": "ir.linkedin.com",
+          "snippet": "View Sahand Ghavidel's profile on LinkedIn, the world's largest professional community. Sahand has 1 job listed on their profile. See the complete profile ...",
+          "htmlSnippet": "View <b>Sahand Ghavidel&#39;s</b> profile on LinkedIn, the world&#39;s largest professional community. Sahand has 1 job listed on their profile. See the complete profile&nbsp;...",
+          "formattedUrl": "https://ir.linkedin.com/in/sahand-ghavidel-236062178",
+          "htmlFormattedUrl": "https://ir.linkedin.com/in/<b>sahand</b>-<b>ghavidel</b>-236062178",
+          "pagemap": {
+              "cse_thumbnail": [
+                  {
+                      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQdKL_YyHrulTLf0ObhZyAAvQCTftLzwormEsl37va6eHeQ8cib-ekpAB8",
+                      "width": "225",
+                      "height": "225"
+                  }
+              ],
+              "metatags": [
+                  {
+                      "og:image": "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry",
+                      "twitter:card": "summary",
+                      "platform-worker": "https://static-exp1.licdn.com/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                      "al:android:package": "com.linkedin.android",
+                      "locale": "en_US",
+                      "al:ios:url": "https://ir.linkedin.com/in/sahand-ghavidel-236062178",
+                      "og:description": "View Sahand Ghavidel’s profile on LinkedIn, the world’s largest professional community. Sahand has 1 job listed on their profile. See the complete profile on LinkedIn and discover Sahand’s connections and jobs at similar companies.",
+                      "al:ios:app_store_id": "288429040",
+                      "platform": "https://static-exp1.licdn.com/sc/h/4d5byaizgk6fd61jwnifx58p6",
+                      "twitter:image": "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry",
+                      "profile:last_name": "Ghavidel",
+                      "twitter:site": "@Linkedin",
+                      "litmsprofilename": "public-profile-frontend",
+                      "profile:first_name": "Sahand",
+                      "og:type": "profile",
+                      "twitter:title": "Sahand Ghavidel - Musician - Jaryanat e Movazi | LinkedIn",
+                      "al:ios:app_name": "LinkedIn",
+                      "og:title": "Sahand Ghavidel - Musician - Jaryanat e Movazi | LinkedIn",
+                      "pagekey": "public_profile_v3_mobile",
+                      "al:android:url": "https://ir.linkedin.com/in/sahand-ghavidel-236062178",
+                      "viewport": "width=device-width, initial-scale=1.0",
+                      "twitter:description": "View Sahand Ghavidel’s profile on LinkedIn, the world’s largest professional community. Sahand has 1 job listed on their profile. See the complete profile on LinkedIn and discover Sahand’s connections and jobs at similar companies.",
+                      "ubba": "https://static-exp1.licdn.com/sc/h/cw715fuijetq48vhfutlcuw89",
+                      "og:url": "https://ir.linkedin.com/in/sahand-ghavidel-236062178",
+                      "al:android:app_name": "LinkedIn"
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry"
+                  }
+              ]
+          }
       },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Google Earth!",
-      htmlTitle: "<b>Hello</b> Google Earth!",
-      link: "http://www.google.com/earth/plugin/examples/helloearth/index.html",
-      displayLink: "www.google.com",
-      snippet: "Hello, Earth!",
-      htmlSnippet: "<b>Hello</b>, Earth!",
-      cacheId: "-fqOqA_cjuMJ",
-      formattedUrl:
-        "www.google.com/earth/plugin/examples/helloearth/index.html",
-      htmlFormattedUrl:
-        "www.google.com/earth/plugin/examples/<b>hello</b>earth/index.html",
-    },
-    {
-      kind: "customsearch#result",
-      title: "Say Hello and Introduce Yourself - Google Public Data Explorer",
-      htmlTitle:
-        "Say <b>Hello</b> and Introduce Yourself - Google Public Data Explorer",
-      link: "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
-      displayLink: "www.google.com",
-      snippet:
-        "Activity in the 'Say Hello and Introduce Yourself' forum in the Global Classroom. More info ». Last updated: Feb 5, 2012.",
-      htmlSnippet:
-        "Activity in the &#39;Say <b>Hello</b> and Introduce Yourself&#39; forum in the Global Classroom. More info ». Last updated: Feb 5, 2012.",
-      cacheId: "0BnuvV7sJ2kJ",
-      formattedUrl:
-        "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
-      htmlFormattedUrl:
-        "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
-      pagemap: {
-        metatags: [
-          {
-            fragment: "!",
-            "com.google.dataspaces.frontend.publicview.client.explorepageprodmodule_i18n::gwt:property":
-              "baseUrl=/publicdata/gwt/",
-          },
-        ],
-        thing: [
-          {
-            name: "Say Hello and Introduce Yourself",
-            description:
-              "Activity in the 'Say Hello and Introduce Yourself' forum in the Global Classroom Data from Nord Anglia Education Powered by Google",
-          },
-        ],
+      {
+          "kind": "customsearch#result",
+          "title": "Stream Sahand Ghavidel music | Listen to songs, albums, playlists ...",
+          "htmlTitle": "Stream <b>Sahand Ghavidel</b> music | Listen to songs, albums, playlists ...",
+          "link": "https://soundcloud.com/sahandghavidel",
+          "displayLink": "soundcloud.com",
+          "snippet": "me and my Friend ( Milad Haghnezhad ) have formed the band \"Jaryanat e Movazi ( Parallel Streams )\" an experimental music band, with the aim of experiencing ...",
+          "htmlSnippet": "me and my Friend ( Milad Haghnezhad ) have formed the band &quot;Jaryanat e Movazi ( Parallel Streams )&quot; an experimental music band, with the aim of experiencing&nbsp;...",
+          "cacheId": "_X9mGmZ55kQJ",
+          "formattedUrl": "https://soundcloud.com/sahandghavidel",
+          "htmlFormattedUrl": "https://soundcloud.com/<b>sahandghavidel</b>",
+          "pagemap": {
+              "cse_thumbnail": [
+                  {
+                      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKbLqqytPxXSaLjtgMeREcoDnfhbIgOn5PLT-sOxSCp_bn930Ij0QdXrsT",
+                      "width": "225",
+                      "height": "225"
+                  }
+              ],
+              "metatags": [
+                  {
+                      "twitter:app:id:googleplay": "com.soundcloud.android",
+                      "twitter:app:url:iphone": "soundcloud://users:10217775",
+                      "og:image": "https://i1.sndcdn.com/avatars-000008534832-4kptb5-t500x500.jpg",
+                      "theme-color": "#333",
+                      "twitter:card": "player",
+                      "og:image:width": "500",
+                      "og:site_name": "SoundCloud",
+                      "twitter:url": "https://soundcloud.com/sahandghavidel",
+                      "twitter:app:url:ipad": "soundcloud://users:10217775",
+                      "al:android:package": "com.soundcloud.android",
+                      "twitter:app:name:googleplay": "SoundCloud",
+                      "medium": "video",
+                      "twitter:app:id:iphone": "336353151",
+                      "al:ios:url": "soundcloud://users:10217775",
+                      "og:description": "Play Sahand Ghavidel on SoundCloud and discover followers on SoundCloud | Stream tracks, albums, playlists on desktop and mobile.",
+                      "al:ios:app_store_id": "336353151",
+                      "twitter:player": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F10217775&auto_play=false&show_artwork=true&visual=true&origin=twitter",
+                      "twitter:player:height": "450",
+                      "og:video:type": "application/x-shockwave-flash",
+                      "og:video:height": "242",
+                      "og:country-name": "IR",
+                      "twitter:title": "Sahand Ghavidel",
+                      "og:type": "music.musician",
+                      "al:ios:app_name": "SoundCloud",
+                      "twitter:audio:partner": "SoundCloud",
+                      "og:title": "Sahand Ghavidel",
+                      "twitter:app:id:ipad": "336353151",
+                      "og:image:height": "500",
+                      "og:video:width": "460",
+                      "soundcloud:sound_count": "6",
+                      "twitter:image:src": "https://i1.sndcdn.com/avatars-000008534832-4kptb5-t500x500.jpg",
+                      "al:android:url": "soundcloud://users:10217775",
+                      "referrer": "origin",
+                      "fb:app_id": "19507961798",
+                      "twitter:app:url:googleplay": "soundcloud://users:10217775",
+                      "twitter:app:name:ipad": "SoundCloud",
+                      "og:video": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F10217775&auto_play=false&show_artwork=true&visual=true&color=3b5998&origin=facebook",
+                      "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1",
+                      "twitter:description": "Play Sahand Ghavidel on SoundCloud and discover followers on SoundCloud | Stream tracks, albums, playlists on desktop and mobile.",
+                      "al:web:should_fallback": "false",
+                      "twitter:player:width": "435",
+                      "og:url": "https://soundcloud.com/sahandghavidel",
+                      "al:android:app_name": "SoundCloud",
+                      "twitter:app:name:iphone": "SoundCloud"
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://i1.sndcdn.com/avatars-000008534832-4kptb5-t500x500.jpg"
+                  }
+              ]
+          }
       },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Say Hello and Introduce Yourself - Google Public Data Explorer",
-      htmlTitle:
-        "Say <b>Hello</b> and Introduce Yourself - Google Public Data Explorer",
-      link: "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_&hl=en&dl=en#!ctype=m&strail=true&bcs=o&nselm=h&ifdim=location&tdim=true&hl=en_US&dl=en_US&ind=false",
-      displayLink: "www.google.com",
-      snippet:
-        "No data available for Abu Dhabi, Beijing, Bratislava and 12 others. Public Data. Say Hello and Introduce Yourself ? Posts. Clear. Compare by. Locations.",
-      htmlSnippet:
-        "No data available for Abu Dhabi, Beijing, Bratislava and 12 others. Public Data. Say <b>Hello</b> and Introduce Yourself ? Posts. Clear. Compare by. Locations.",
-      cacheId: "r2TnEJknShQJ",
-      formattedUrl: "https://www.google.com/.../explore?ds...",
-      htmlFormattedUrl: "https://www.google.com/.../explore?ds...",
-      pagemap: {
-        metatags: [
-          {
-            fragment: "!",
-            "com.google.dataspaces.frontend.publicview.client.explorepageprodmodule_i18n::gwt:property":
-              "baseUrl=/publicdata/gwt/",
-          },
-        ],
+      {
+          "kind": "customsearch#result",
+          "title": "Sahand Ghavidel",
+          "htmlTitle": "<b>Sahand Ghavidel</b>",
+          "link": "https://www.sahandghavidel.com/",
+          "displayLink": "www.sahandghavidel.com",
+          "snippet": "Sahand Ghavidel has a PhD from the University of Technology Sydney's Faculty of Engineering and IT. Sahand has studied artificial algorithms and ...",
+          "htmlSnippet": "<b>Sahand Ghavidel</b> has a PhD from the University of Technology Sydney&#39;s Faculty of Engineering and IT. Sahand has studied artificial algorithms and&nbsp;...",
+          "cacheId": "au6SqfVIXzUJ",
+          "formattedUrl": "https://www.sahandghavidel.com/",
+          "htmlFormattedUrl": "https://www.<b>sahandghavidel</b>.com/",
+          "pagemap": {
+              "cse_thumbnail": [
+                  {
+                      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRn2fbautBXMMB_kZylUUkKJosDojgcyl7J58lj8-_1Lolyi48XsJSMzptU",
+                      "width": "275",
+                      "height": "183"
+                  }
+              ],
+              "metatags": [
+                  {
+                      "viewport": "width=device-width, initial-scale=1",
+                      "author": "Sahand Ghavidel"
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1472&q=80"
+                  }
+              ]
+          }
       },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Bernadette Peters Demonstrates Her Physically Demanding Pre ...",
-      htmlTitle:
-        "Bernadette Peters Demonstrates Her Physically Demanding Pre ...",
-      link: "http://www.google.com/appserve/mkt/p/AIQrb_5qpJjaQpio5LHhSxcFmQM7IgnOV28QsUgh7BKsnbY9LhwhKWkQIcYJ33VZEi2hKzaCuXcN-BvlA-SdlodbGPz6hycExHiifBWkBO3wGB5wvfCXRIMjSMXmj7RtKe0z5-T37dATYQs9Av5Y-YcjJRcvnif14H4JbjYELDOvd5i6V66Or--wIom3mY2bikA5gg_cTmoTLDLA1mWK8siIXw7xKA",
-      displayLink: "www.google.com",
-      snippet:
-        "Tony winner Bernadette Peters and Victor Garber joined the hosts of The View March 13 to talk about their return to Broadway in Hello, Dolly!",
-      htmlSnippet:
-        "Tony winner Bernadette Peters and Victor Garber joined the hosts of The View March 13 to talk about their return to Broadway in <b>Hello</b>, Dolly!",
-      cacheId: "6kZKQe6UGA0J",
-      formattedUrl:
-        "www.google.com/.../AIQrb_ 5qpJjaQpio5LHhSxcFmQM7IgnOV28QsUgh7BKsnbY9LhwhKWkQIcYJ3...",
-      htmlFormattedUrl:
-        "www.google.com/.../AIQrb_ 5qpJjaQpio5LHhSxcFmQM7IgnOV28QsUgh7BKsnbY9LhwhKWkQIcYJ3...",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRid8LMAXdE5vbrVc3CmNRyE-bEWWImQblan6z56tjNRWpK4w0hYywKPsOx",
-            width: "299",
-            height: "169",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://assets.playbill.com/editorial/_1200x630_crop_center-center_82_none/58acd626678c292c51f47f3ef8f688a8-screen-shot-2018-03-13-at-12.25.31 PM.png?mtime=1552405868",
-            "fb:profile_id": "playbill",
-            "og:type": "website",
-            "twitter:card": "summary_large_image",
-            "twitter:title":
-              "Bernadette Peters Demonstrates Her Physically Demanding Pre-Show Hello, Dolly! Ritual",
-            "og:site_name": "Playbill",
-            "og:title":
-              "Bernadette Peters Demonstrates Her Physically Demanding Pre-Show Hello, Dolly! Ritual",
-            "og:description":
-              "Watch what the Tony winner does with the ensemble before each performance.",
-            "twitter:creator": "@playbill",
-            "twitter:image":
-              "https://assets.playbill.com/editorial/_1200x630_crop_center-center_82_none/58acd626678c292c51f47f3ef8f688a8-screen-shot-2018-03-13-at-12.25.31 PM.png?mtime=1552405868",
-            referrer: "no-referrer-when-downgrade",
-            "twitter:site": "@playbill",
-            viewport: "width=device-width, initial-scale=1",
-            "twitter:description":
-              "Watch what the Tony winner does with the ensemble before each performance.",
-            "og:locale": "en_US",
-            "og:url":
-              "https://playbill.com/article/bernadette-peters-demonstrates-her-physically-demanding-pre-show-hello-dolly-ritual",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://assets.playbill.com/editorial/58acd626678c292c51f47f3ef8f688a8-screen-shot-2018-03-13-at-12.25.31%20PM.png",
-          },
-        ],
+      {
+          "kind": "customsearch#result",
+          "title": "Sahand Ghavidel (@ghavidelsahand) • Instagram photos and videos",
+          "htmlTitle": "<b>Sahand Ghavidel</b> (@ghavidelsahand) • Instagram photos and videos",
+          "link": "https://www.instagram.com/ghavidelsahand/?hl=en",
+          "displayLink": "www.instagram.com",
+          "snippet": "137 Followers, 172 Following, 2 Posts - See Instagram photos and videos from Sahand Ghavidel (@ghavidelsahand)",
+          "htmlSnippet": "137 Followers, 172 Following, 2 Posts - See Instagram photos and videos from <b>Sahand Ghavidel</b> (@ghavidelsahand)",
+          "formattedUrl": "https://www.instagram.com/ghavidelsahand/?hl=en",
+          "htmlFormattedUrl": "https://www.instagram.com/<b>ghavidelsahand</b>/?hl=en",
+          "pagemap": {
+              "metatags": [
+                  {
+                      "og:image": "https://scontent-atl3-1.cdninstagram.com/v/t51.2885-19/s150x150/69104276_2313341755598626_1691727432517681152_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=R_fw0hxRWEgAX8a2Mty&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT8kr46u1IZ5ozBMedhVI5YI4V8zsZJkDr98d7k27ENZEA&oe=620BC9AF&_nc_sid=7bff83",
+                      "theme-color": "#ffffff",
+                      "og:type": "profile",
+                      "al:ios:app_name": "Instagram",
+                      "og:title": "Sahand Ghavidel (@ghavidelsahand) • Instagram photos and videos",
+                      "al:android:package": "com.instagram.android",
+                      "al:ios:url": "instagram://user?username=ghavidelsahand",
+                      "og:description": "137 Followers, 172 Following, 2 Posts - See Instagram photos and videos from Sahand Ghavidel (@ghavidelsahand)",
+                      "al:ios:app_store_id": "389801252",
+                      "al:android:url": "https://www.instagram.com/_u/ghavidelsahand/",
+                      "apple-mobile-web-app-status-bar-style": "default",
+                      "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover",
+                      "mobile-web-app-capable": "yes",
+                      "og:url": "https://www.instagram.com/ghavidelsahand/",
+                      "al:android:app_name": "Instagram"
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://scontent-atl3-1.cdninstagram.com/v/t51.2885-19/s150x150/69104276_2313341755598626_1691727432517681152_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=R_fw0hxRWEgAX8a2Mty&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT8kr46u1IZ5ozBMedhVI5YI4V8zsZJkDr98d7k27ENZEA&oe=620BC9AF&_nc_sid=7bff83"
+                  }
+              ]
+          }
       },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Google",
-      htmlTitle: "Google",
-      link: "http://www.google.com/",
-      displayLink: "www.google.com",
-      snippet:
-        "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking ...",
-      htmlSnippet:
-        "Search the world&#39;s information, including webpages, images, videos and more. Google has many special features to help you find exactly what you&#39;re looking&nbsp;...",
-      cacheId: "zhool8dxBV4J",
-      formattedUrl: "www.google.com/",
-      htmlFormattedUrl: "www.google.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3X9ZpkcNrr2kAcGZuXPZTNiK1oeTXhRMCZ1UGxNLf-an4du0eriX01mc",
-            width: "320",
-            height: "112",
-          },
-        ],
-        metatags: [
-          {
-            referrer: "origin",
-            viewport: "width=device-width,minimum-scale=1.0",
-            google: "notranslate",
-            "format-detection": "telephone=no",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
-          },
-        ],
+      {
+          "kind": "customsearch#result",
+          "title": "Sahand Ghavidel Courses | Free Udemy Courses by Sahand Ghavidel",
+          "htmlTitle": "<b>Sahand Ghavidel</b> Courses | Free Udemy Courses by <b>Sahand Ghavidel</b>",
+          "link": "https://coursecouponclub.com/sahand-ghavidel-courses/",
+          "displayLink": "coursecouponclub.com",
+          "snippet": "Sahand Ghavidel holds degrees in Mathematics, Electrical, and Computer Science, and earned a doctoral degree from Faculty of Engineering and IT, ...",
+          "htmlSnippet": "<b>Sahand Ghavidel</b> holds degrees in Mathematics, Electrical, and Computer Science, and earned a doctoral degree from Faculty of Engineering and IT,&nbsp;...",
+          "cacheId": "HG8z5mFCNm8J",
+          "formattedUrl": "https://coursecouponclub.com/sahand-ghavidel-courses/",
+          "htmlFormattedUrl": "https://coursecouponclub.com/<b>sahand</b>-<b>ghavidel</b>-courses/",
+          "pagemap": {
+              "cse_thumbnail": [
+                  {
+                      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnyD2GtnZDBjfriKtVZAaOiIEDO6YlAmKrbkWlrfjRZaq6I3fIJmRi",
+                      "width": "120",
+                      "height": "120"
+                  }
+              ],
+              "metatags": [
+                  {
+                      "og:type": "article",
+                      "twitter:card": "summary_large_image",
+                      "og:site_name": "Course Coupon Club",
+                      "viewport": "width=device-width, initial-scale=1.0",
+                      "og:title": "Sahand Ghavidel Courses | Free Udemy Courses by Sahand Ghavidel",
+                      "og:locale": "en_US",
+                      "og:url": "https://coursecouponclub.com/sahand-ghavidel-courses/",
+                      "msapplication-tileimage": "https://coursecouponclub.com/wp-content/uploads/2021/02/favicon1-300x300.png",
+                      "og:description": "Sahand Ghavidel holds degrees in Mathematics, Electrical, and Computer Science, and earned a doctoral degree from Faculty of Engineering and IT, University of Technology Sydney. Check out the latest courses taught by Sahand Ghavidel."
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://coursecouponclub.com/wp-content/uploads/thumbs_dir/65148228_08f1-1y8pvdzl3mvhlt8u84k57a0g1zqaetxxabc75n96nzfo.jpg"
+                  }
+              ]
+          }
       },
-    },
-    {
-      kind: "customsearch#result",
-      title: "A failure to say hello: how Captain Cook blundered his first ...",
-      htmlTitle:
-        "A failure to say <b>hello</b>: how Captain Cook blundered his first ...",
-      link: "https://www.google.com/appserve/mkt/p/AM7kBiVhZVB1mSx-RtAWyycXoM3y9LSIjHlbNh0SJ2G7k0Ip2udHE8PHZPTkcgmSOfIlY0Cf0Y7nxaHzIGZ6Wp345VqOdZU-qhyhCoXVL1nXnbCn5pJvBJ-pbvjfhxw6gsohCyc3uKnJQstdcYCzYBKaJfoykw0u1ENH1XHxSk7n4tZ3pyx0T5PycGlrJz828j37EbpfK9hw6uvP2RCjuJ2owgV_i04HEQmi3qLlsz2Ut7DvQJCR",
-      displayLink: "www.google.com",
-      snippet:
-        "Apr 28, 2020 ... A failure to say hello: how Captain Cook blundered his first impression with Indigenous people. April 28, 2020 4.33pm EDT.",
-      htmlSnippet:
-        "Apr 28, 2020 <b>...</b> A failure to say <b>hello</b>: how Captain Cook blundered his first impression with Indigenous people. April 28, 2020 4.33pm EDT.",
-      cacheId: "3kwVFSjOkesJ",
-      formattedUrl:
-        "https://www.google.com/.../AM7kBiVhZVB1mSx- RtAWyycXoM3y9LSIjHlbNh0SJ2G7k0Ip2udHE8PHZPTkcgmSOfIlY0Cf...",
-      htmlFormattedUrl:
-        "https://www.google.com/.../AM7kBiVhZVB1mSx- RtAWyycXoM3y9LSIjHlbNh0SJ2G7k0Ip2udHE8PHZPTkcgmSOfIlY0Cf...",
-      pagemap: {
-        hcard: [
-          {
-            role: "Co-Director, Australian Centre for Indigenous History, Australian National University",
-            fn: "Maria Nugent",
-          },
-        ],
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRm8hzz4XpDRhHSytpku9Mniid3tK2yhkOOSjRx2rCF50qESh11oKJPjc23",
-            width: "320",
-            height: "157",
-          },
-        ],
-        person: [
-          {
-            role: "Co-Director, Australian Centre for Indigenous History, Australian National University",
-          },
-          {
-            image:
-              "https://cdn.theconversation.com/avatars/881591/width170/mnugent.jpg",
-            name: "Maria Nugent",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://images.theconversation.com/files/330591/original/file-20200427-145503-xqinw3.jpg?ixlib=rb-1.1.0&rect=87%2C0%2C4517%2C2254&q=45&auto=format&w=1356&h=668&fit=crop",
-            "theme-color": "#d8352a",
-            "twitter:card": "summary_large_image",
-            "og:site_name": "The Conversation",
-            "current-region": "us",
-            "og:description":
-              "Indigenous story-telling of Cook’s landing has transformed the way we understand his legacy in Australia. And the way he came ashore set some of the terms for future colonial-Indigenous relations.",
-            "article:publisher": "https://facebook.com/ConversationEDU",
-            institution: "Australian National University",
-            "twitter:site": "@ConversationEDU",
-            news_keywords: "Cook250, Indigenous, James Cook, Story-telling",
-            searchtype: "analysis",
-            "csrf-token":
-              "bA3a-igOrefplrK0oHDkTxGs3lcUnJEmyrZ1cQmMqHqzg33SEQSI3dkzq-43UEbzlfb-cQFKGhp5PTv1cd2cMQ",
-            pubdate: "20200428",
-            "og:type": "article",
-            author: "Maria Nugent",
-            "og:title":
-              "A failure to say hello: how Captain Cook blundered his first impression with Indigenous people",
-            "og:updated_time": "2021-10-14T09:32:10Z",
-            "csrf-param": "authenticity_token",
-            "msapplication-navbutton-color": "#d8352a",
-            "fb:pages": "176084152419221",
-            "fb:app_id": "127105130696839",
-            viewport: "width=device-width, initial-scale=1",
-            "original-source":
-              "https://theconversation.com/a-failure-to-say-hello-how-captain-cook-blundered-his-first-impression-with-indigenous-people-126673",
-            "og:url":
-              "http://theconversation.com/a-failure-to-say-hello-how-captain-cook-blundered-his-first-impression-with-indigenous-people-126673",
-            "commissioning-region": "au",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://images.theconversation.com/files/330591/original/file-20200427-145503-xqinw3.jpg?ixlib=rb-1.1.0&rect=87%2C0%2C4517%2C2254&q=45&auto=format&w=1356&h=668&fit=crop",
-          },
-        ],
-        article: [
-          {
-            image:
-              "https://images.theconversation.com/files/330591/original/file-20200427-145503-xqinw3.jpg?ixlib=rb-1.1.0&rect=523%2C94%2C3433%2C3084&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-            articlebody:
-              "Captain James Cook arrived in the Pacific 250 years ago, triggering British colonisation of the region. We’re asking researchers to reflect on what happened and how it shapes us today. You...",
-            name: "A failure to say hello: how Captain Cook blundered his first impression with Indigenous people",
-            datepublished: "2020-04-28T20:33:15Z",
-          },
-        ],
+      {
+          "kind": "customsearch#result",
+          "title": "Hybrid power plant bidding strategy for voltage stability improvement ...",
+          "htmlTitle": "Hybrid power plant bidding strategy for voltage stability improvement ...",
+          "link": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/esi2.12008",
+          "displayLink": "ietresearch.onlinelibrary.wiley.com",
+          "snippet": "Mar 26, 2021 ... Sahand Ghavidel, School of Electrical and Data Engineering, University of Technology Sydney, Broadway, NSW 2007, Australia. Email: sahand.",
+          "htmlSnippet": "Mar 26, 2021 <b>...</b> <b>Sahand Ghavidel</b>, School of Electrical and Data Engineering, University of Technology Sydney, Broadway, NSW 2007, Australia. Email: sahand.",
+          "formattedUrl": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/esi2.12008",
+          "htmlFormattedUrl": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/esi2.12008",
+          "pagemap": {
+              "cse_thumbnail": [
+                  {
+                      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx4-bwbP7C_B42crHIRkDvpA4vw2o7lZLjKaygwQjKXEUC5Y2vgf18x3Eo",
+                      "width": "196",
+                      "height": "257"
+                  }
+              ],
+              "metatags": [
+                  {
+                      "og:image": "https://ietresearch.onlinelibrary.wiley.com/cms/asset/6aa10eca-2414-44ac-b553-a3f384c2de31/esi2.2021.v3.1.cover.jpg",
+                      "og:type": "Article",
+                      "citation_title": "Hybrid power plant bidding strategy for voltage stability improvement, electricity market profit maximization, and congestion management",
+                      "citation_author_institution": "School of Electrical and Data Engineering University of Technology Sydney Broadway NSW Australia",
+                      "og:site_name": "Institution of Engineering and Technology",
+                      "citation_publisher": "The Institution of Engineering and Technology",
+                      "pbcontext": ";requestedJournal:journal:25168401;page:string:Article/Chapter View;ctype:string:Journal Content;subPage:string:Abstract;article:article:doi\\:10.1049/esi2.12008;journal:journal:25168401;website:website:ietresearch;wgroup:string:Publication Websites;pageGroup:string:Publication Pages;csubtype:string:Ahead of Print",
+                      "og:title": "Hybrid power plant bidding strategy for voltage stability improvement, electricity market profit maximization, and congestion management",
+                      "citation_journal_title": "IET Energy Systems Integration",
+                      "citation_author": "Sahand Ghavidel",
+                      "citation_abstract_html_url": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/esi2.12008",
+                      "og:description": "This article models a hybrid power plant (HPP), including a compressed air energy storage (CAES) aggregator with a wind power aggregator (WPA) considering network constraints. Three objective functio...",
+                      "epdf_available": "false",
+                      "citation_online_date": "2021/03/26",
+                      "referrer": "origin-when-cross-origin",
+                      "citation_issn": "2516-8401",
+                      "viewport": "width=device-width,initial-scale=1",
+                      "citation_doi": "10.1049/esi2.12008",
+                      "citation_language": "en",
+                      "citation_fulltext_html_url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/esi2.12008",
+                      "dc.identifier": "10.1049/esi2.12008",
+                      "citation_pdf_url": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/esi2.12008",
+                      "og:url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/esi2.12008",
+                      "article_references": "Ghavidel, S., Rajabi, A., Jabbari Ghadi, M., Azizivahed, A., Li, L. and Zhang, J. (2021), Hybrid power plant bidding strategy for voltage stability improvement, electricity market profit maximization, and congestion management. IET Energy Syst. Integr. https://doi.org/10.1049/esi2.12008"
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://ietresearch.onlinelibrary.wiley.com/cms/asset/6aa10eca-2414-44ac-b553-a3f384c2de31/esi2.2021.v3.1.cover.jpg"
+                  }
+              ]
+          }
       },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Google Docs: Free Online Document Editor | Google Workspace",
-      htmlTitle: "Google Docs: Free Online Document Editor | Google Workspace",
-      link: "https://www.google.com/docs/about/",
-      displayLink: "www.google.com",
-      snippet:
-        "Use Google Docs to create, and collaborate on online documents. Edit together with secure sharing in real-time and from any device.",
-      htmlSnippet:
-        "Use Google Docs to create, and collaborate on online documents. Edit together with secure sharing in real-time and from any device.",
-      cacheId: "B4Skq4M5akkJ",
-      formattedUrl: "https://www.google.com/docs/about/",
-      htmlFormattedUrl: "https://www.google.com/docs/about/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwELdtonBh-4WwJ2BtD4mygtEC5WJBYy4XjXbIvY4YA92EZHCyMfTD",
-            width: "36",
-            height: "36",
-          },
-        ],
-        metatags: [
-          {
-            referrer: "no-referrer",
-            "og:image":
-              "https://kstatic.googleusercontent.com/files/97ecc831526fbe8c60fe88ef0d7a6cbf06361809f0acf857326681f6a1f35740d3bd7d69bf4a5381f5c31a863bccace4d9d1660379182901f73d24ef137f6fb4",
-            "twitter:title":
-              "Google Docs: Free Online Document Editor | Google Workspace",
-            "og:type": "website",
-            viewport: "initial-scale=1, minimum-scale=1, width=device-width",
-            "twitter:url": "https://twitter.com/googledocs",
-            "twitter:description":
-              "Use Google Docs to create, and collaborate on online documents. Edit together with secure sharing in real-time and from any device.",
-            "og:title":
-              "Google Docs: Free Online Document Editor | Google Workspace",
-            "og:url": "https://www.facebook.com/GoogleDocs/",
-            "twitter:creator": "Google",
-            "og:description":
-              "Use Google Docs to create, and collaborate on online documents. Edit together with secure sharing in real-time and from any device.",
-            "twitter:image":
-              "https://kstatic.googleusercontent.com/files/97ecc831526fbe8c60fe88ef0d7a6cbf06361809f0acf857326681f6a1f35740d3bd7d69bf4a5381f5c31a863bccace4d9d1660379182901f73d24ef137f6fb4",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://kstatic.googleusercontent.com/files/97ecc831526fbe8c60fe88ef0d7a6cbf06361809f0acf857326681f6a1f35740d3bd7d69bf4a5381f5c31a863bccace4d9d1660379182901f73d24ef137f6fb4",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Google Chrome Privacy Whitepaper",
-      htmlTitle: "Google Chrome Privacy Whitepaper",
-      link: "https://www.google.com/chrome/privacy/whitepaper.html",
-      displayLink: "www.google.com",
-      snippet:
-        "Feb 4, 2021 ... This document also describes the controls available to you regarding how your data is used by Chrome. Here we're focusing on the desktop version ...",
-      htmlSnippet:
-        "Feb 4, 2021 <b>...</b> This document also describes the controls available to you regarding how your data is used by Chrome. Here we&#39;re focusing on the desktop version&nbsp;...",
-      cacheId: "t67Y-xu-jmsJ",
-      formattedUrl: "https://www.google.com/chrome/privacy/whitepaper.html",
-      htmlFormattedUrl: "https://www.google.com/chrome/privacy/whitepaper.html",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQKOXFpJVF_Xz2cq8bSojiNKHJUoBzHsj8n3Sdsy1dQnCNO135b0qOVTw",
-            width: "48",
-            height: "48",
-          },
-        ],
-        metatags: [
-          {
-            "msapplication-config":
-              "/chrome/static/images/favicons/browserconfig.xml",
-            "og:image":
-              "https://www.google.com/chrome/static/images/chrome-logo.svg",
-            "twitter:card": "summary_large_image",
-            "twitter:title": "Google Chrome Privacy Whitepaper",
-            "og:type": "website",
-            "twitter:url":
-              "https://www.google.com/chrome/privacy/whitepaper.html",
-            "og:title": "Google Chrome Privacy Whitepaper",
-            "og:description": "Google Chrome Privacy Whitepaper",
-            "twitter:image":
-              "https://www.google.com/chrome/static/images/chrome-logo.svg",
-            viewport: "width=device-width, initial-scale=1",
-            "twitter:description": "Google Chrome Privacy Whitepaper",
-            "og:locale": "en_US",
-            "og:url": "https://www.google.com/chrome/privacy/whitepaper.html",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.google.com/chrome/static/images/chrome-logo.svg",
-          },
-        ],
-      },
-    },
-  ],
-};
+      {
+          "kind": "customsearch#result",
+          "title": "Sahand Ghavidel - Quora",
+          "htmlTitle": "<b>Sahand Ghavidel</b> - Quora",
+          "link": "https://www.quora.com/profile/Sahand-Ghavidel",
+          "displayLink": "www.quora.com",
+          "snippet": "Sahand Ghavidel, P.h.D Electrical and Computer Engineering & Computer Programming, University of Technology, Sydney (2020)",
+          "htmlSnippet": "<b>Sahand Ghavidel</b>, P.h.D Electrical and Computer Engineering &amp; Computer Programming, University of Technology, Sydney (2020)",
+          "formattedUrl": "https://www.quora.com/profile/Sahand-Ghavidel",
+          "htmlFormattedUrl": "https://www.quora.com/profile/<b>Sahand</b>-<b>Ghavidel</b>",
+          "pagemap": {
+              "cse_thumbnail": [
+                  {
+                      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHE5SOP7H80Ii5dfkhi1OSSLtkwbfXOdt96JX1wv_p-GD_CzS-LF6egOkR",
+                      "width": "200",
+                      "height": "200"
+                  }
+              ],
+              "metatags": [
+                  {
+                      "og:image": "https://qph.fs.quoracdn.net/main-thumb-276411173-200-fcftyjlopnqtdsisweoinxjickpdefdm.jpeg",
+                      "theme-color": "#b92b27",
+                      "og:type": "profile",
+                      "twitter:card": "summary",
+                      "twitter:title": "Sahand Ghavidel",
+                      "og:site_name": "Quora",
+                      "twitter:url": "https://www.quora.com/profile/Sahand-Ghavidel",
+                      "og:title": "Sahand Ghavidel",
+                      "al:android:package": "com.quora.android",
+                      "og:description": "Wrote 8 answers.",
+                      "fb:pages": "255232486973",
+                      "twitter:image": "https://qph.fs.quoracdn.net/main-thumb-276411173-200-fcftyjlopnqtdsisweoinxjickpdefdm.jpeg",
+                      "al:android:url": "intent://www.quora.com/profile/Sahand-Ghavidel#Intent;scheme=qhttp;package=com.quora.android;S.market_referrer=launch_url=https%3A%2F%2Fwww.quora.com%2Fprofile%2FSahand-Ghavidel&logging_data=uid%3DNone;end",
+                      "fb:app_id": "136609459636",
+                      "twitter:site": "@Quora",
+                      "viewport": "initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimum-scale=1, viewport-fit=cover",
+                      "twitter:description": "Wrote 8 answers.",
+                      "og:url": "https://www.quora.com/profile/Sahand-Ghavidel",
+                      "twitter:widgets:theme": "light"
+                  }
+              ],
+              "cse_image": [
+                  {
+                      "src": "https://qph.fs.quoracdn.net/main-thumb-276411173-200-fcftyjlopnqtdsisweoinxjickpdefdm.jpeg"
+                  }
+              ]
+          }
+      }
+  ]
+}
