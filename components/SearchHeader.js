@@ -12,7 +12,7 @@ export default function SearchHeader() {
     event.preventDefault();
     const term = searchInputRef.current.value;
     if (!term) return;
-    router.push(`/search?term=${term}`);
+    router.push(`/search?term=${term}&searchType=`);
   }
   return (
     <header className="sticky top-0 bg-white">

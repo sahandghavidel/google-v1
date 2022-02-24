@@ -3,6 +3,7 @@ import SearchHeader from "../components/SearchHeader";
 import Response from "../Response";
 import { useRouter } from "next/router";
 import SearchResults from "../components/SearchResults";
+import ImageResults from "../components/ImageResults";
 
 export default function Search({ results }) {
   console.log(results);
@@ -18,7 +19,13 @@ export default function Search({ results }) {
 
       {/* Search Results */}
 
-      <SearchResults results={results} />
+      {router.query.searchType === "image" ? (
+        <ImageResults results={results} />
+      ) : (
+        <SearchResults results={results} />
+      )}
+
+      {/* Images Results */}
     </div>
   );
 }
@@ -29,7 +36,11 @@ export async function getServerSideProps(context) {
   const data = useDummyData
     ? Response
     : await fetch(
-        `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CONTEXT_KEY}&q=${context.query.term}&start=${startIndex}`
+        `https://www.googleapis.com/customsearch/v1?key=${
+          process.env.API_KEY
+        }&cx=${process.env.CONTEXT_KEY}&q=${
+          context.query.term
+        }&start=${startIndex}${context.query.searchType && "&searchType=image"}`
       ).then((response) => response.json());
 
   return {
